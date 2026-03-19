@@ -1,0 +1,130 @@
+{
+  "mangas": [
+    {
+      "title": "Naruto",
+      "rating": 5,
+      "tags": [
+        "action",
+        "ninja",
+        "shonen",
+        "aventure"
+      ],
+      "comment": "Personnages incroyables, arcs épiques"
+    },
+    {
+      "title": "Attack on Titan",
+      "rating": 5,
+      "tags": [
+        "action",
+        "dark",
+        "seinen",
+        "mystère",
+        "drama"
+      ],
+      "comment": "Scénario complexe et imprévisible"
+    },
+    {
+      "title": "One Piece",
+      "rating": 4,
+      "tags": [
+        "aventure",
+        "shonen",
+        "action",
+        "humour"
+      ],
+      "comment": "World building exceptionnel"
+    },
+    {
+      "title": "Sword Art Online",
+      "rating": 1,
+      "tags": [
+        "isekai",
+        "action",
+        "romance"
+      ],
+      "comment": "Trop cliché"
+    },
+    {
+      "title": "Berserk",
+      "rating": 5,
+      "tags": [
+        "Award Winning",
+        "Monsters",
+        "Action",
+        "Demons",
+        "Psychological",
+        "Adventure",
+        "Sexual Violence",
+        "Military",
+        "Philosophical",
+        "Gore",
+        "Drama",
+        "Horror",
+        "Fantasy"
+      ],
+      "comment": ""
+    },
+    {
+      "title": "Black Clover",
+      "rating": 3,
+      "tags": [
+        "Monsters",
+        "Action",
+        "Demons",
+        "Comedy",
+        "Adventure",
+        "Magic",
+        "Military",
+        "Drama",
+        "Fantasy",
+        "Supernatural",
+        "Mystery"
+      ],
+      "comment": ""
+    },
+    {
+      "title": "Jujutsu kaisen",
+      "rating": 2,
+      "tags": [
+        "Action",
+        "Ghosts",
+        "Magic",
+        "Gore",
+        "Drama",
+        "School Life",
+        "Supernatural"
+      ],
+      "comment": ""
+    },
+    {
+      "title": "one piece",
+      "rating": 1,
+      "tags": [
+        "Award Winning",
+        "Sci-Fi",
+        "Monsters",
+        "Action",
+        "Animals",
+        "Comedy",
+        "Martial Arts",
+        "Adventure",
+        "Gore",
+        "Fantasy"
+      ],
+      "comment": ""
+    },
+    {
+      "title": "fire force",
+      "rating": 5,
+      "tags": [
+        "Action",
+        "Psychological",
+        "Comedy",
+        "Fan Colored",
+        "Drama",
+        "Mystery"
+      ],
+      "comment": ""
+    }
+  ]
+}
