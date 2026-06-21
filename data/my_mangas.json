@@ -125,6 +125,36 @@
         "Mystery"
       ],
       "comment": ""
+    },
+    {
+      "title": "Jojo's Bizarre Adventure",
+      "rating": 4,
+      "tags": [
+        "Action",
+        "Comedy",
+        "Martial Arts",
+        "Adventure",
+        "Gore",
+        "Drama",
+        "Vampires",
+        "Supernatural"
+      ],
+      "comment": ""
+    },
+    {
+      "title": "fairy tail",
+      "rating": 1,
+      "tags": [
+        "Award Winning",
+        "Action",
+        "Romance",
+        "Comedy",
+        "Adventure",
+        "Magic",
+        "Fantasy",
+        "Supernatural"
+      ],
+      "comment": ""
     }
   ]
 }
