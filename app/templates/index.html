@@ -710,6 +710,8 @@
         document.getElementById('add-title').value   = '';
         document.getElementById('add-comment').value = '';
         loadProfile();
+      } else if (data.error) {
+        showToast(`❌ ${data.error}`);
       }
     } catch(e) { showToast('Erreur lors de l\'ajout'); }
   }

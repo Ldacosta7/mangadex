@@ -37,6 +37,12 @@ def validate_manga_input(data: dict):
         raise ValueError("Le titre est requis.")
     if len(title) > 200:
         raise ValueError("Titre trop long (200 caractères max).")
+    
+    # Vérifie que le manga n'existe pas déjà
+    from app.database import get_all_mangas
+    existing = [m["title"].lower() for m in get_all_mangas()]
+    if title.lower() in existing:
+        raise ValueError(f"'{title}' est déjà dans ta liste.")
 
     try:
         rating = int(data.get("rating", 3))

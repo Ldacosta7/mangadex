@@ -38,9 +38,9 @@ def init_db():
     """Crée les tables si elles n'existent pas encore."""
     with db() as conn:
         conn.executescript("""
-            CREATE TABLE IF NOT EXISTS mangas (
+                CREATE TABLE IF NOT EXISTS mangas (
                 id          INTEGER PRIMARY KEY AUTOINCREMENT,
-                title       TEXT    NOT NULL,
+                title       TEXT    NOT NULL UNIQUE COLLATE NOCASE,
                 rating      INTEGER NOT NULL CHECK(rating BETWEEN 1 AND 5),
                 comment     TEXT    DEFAULT '',
                 mangadex_id TEXT    DEFAULT '',
