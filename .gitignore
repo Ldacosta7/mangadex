@@ -208,3 +208,7 @@ __marimo__/
 fine_tuning/
 venv/
 adapters/
+*.pptx
+*.key
+data/mangabot.db
+.flask_sessions/
